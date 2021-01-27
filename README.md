@@ -5,5 +5,7 @@
 * 
 
 # reference
+* https://kotlinlang.org/
 * https://kotlinlang.org/docs/tutorials/jvm-get-started.html
 * https://play.kotlinlang.org/byExample/overview
+* https://developer.android.com/kotlin/style-guide?hl=ko] : 코틀린 스타일 가이드
