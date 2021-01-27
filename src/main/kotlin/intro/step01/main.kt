@@ -1,4 +1,4 @@
-package step01
+package intro.step01
 
 fun main() {
   println("What's your name");

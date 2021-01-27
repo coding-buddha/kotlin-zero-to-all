@@ -1,4 +1,4 @@
-package step02
+package intro.step02
 
 /**
  * Unit 은 아무것도 리턴하지 않겠다는 의미
