@@ -1,4 +1,4 @@
-package controlflow.step01
+package controlflow
 
 /**
  * switch 구문 대신에 when 이라는 키워드를 사용

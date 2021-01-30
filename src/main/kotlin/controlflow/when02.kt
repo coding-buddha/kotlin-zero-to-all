@@ -1,4 +1,4 @@
-package controlflow.step01
+package controlflow
 
 fun main() {
     println(whenAssign("Hello"))

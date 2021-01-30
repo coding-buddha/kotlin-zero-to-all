@@ -1,4 +1,4 @@
-package intro.step06
+package intro
 
 class MutableStack<E>(vararg items: E) {
 

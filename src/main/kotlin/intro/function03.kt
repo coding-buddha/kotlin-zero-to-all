@@ -1,4 +1,4 @@
-package intro.step02
+package intro
 
 /**
  * operator 가 작동하지 않음 ...

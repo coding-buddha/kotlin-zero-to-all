@@ -1,4 +1,4 @@
-package intro.step02
+package intro
 
 fun main() {
 
