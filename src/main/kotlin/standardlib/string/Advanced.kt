@@ -26,6 +26,9 @@ fun useMultiLineString() {
     println("Your name is ${name.count()} long!")
 }
 
+/**
+ * trimIndent() 가 없어서, 있는 그대로 메시지 내용이 출력된다. count() 메소드의 개수도 많다.
+ */
 fun useMultiLineStringWithoutTrimIndent() {
     val name = """
         hong gil dong
@@ -36,6 +39,9 @@ fun useMultiLineStringWithoutTrimIndent() {
     println("Your name is ${name.count()} long!")
 }
 
+/**
+ * json 출력시 유리하다.
+ */
 fun useJsonStringMyMultiLineString() {
     val json = """
         {
