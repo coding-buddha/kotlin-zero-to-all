@@ -13,4 +13,6 @@ fun main() {
     println("짝수배열 : $evenList")
     println("홀수배열 : $oddList")
     println("전체결과 : $resultList")
+    println("전체결과 내 첫번째 목록 : ${resultList.first}")
+    println("전체결과 내 두번쩨 목록 : ${resultList.second}")
 }
