@@ -40,7 +40,7 @@ class TilEqualsTest {
 
         (person1 == person2) shouldBe true
         (person1 === person2) shouldBe false
-        (person1.equals(person2)) shouldBe true
+        (person1.equals(person2)) shouldBe true // data class 이기 때문에 equals 비교 시 일치한다.
 
         (person1.name == person2.name) shouldBe true
         (person1.name.equals(person2.name)) shouldBe true
@@ -55,7 +55,7 @@ class TilEqualsTest {
 
         (employee1 == employee2) shouldBe false
         (employee1 === employee2) shouldBe false
-        (employee1.equals(employee2)) shouldBe false // data class 가 아니면 equals 비교 시 문제가 발생한다.
+        (employee1.equals(employee2)) shouldBe false // data class 가 아니면 equals 비교 시 일치하지 않는다.
 
         (employee1.name == employee2.name) shouldBe true
         (employee1.name.equals(employee2.name)) shouldBe true
