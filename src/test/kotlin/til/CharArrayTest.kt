@@ -5,7 +5,7 @@ import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 
 @DisplayName("char array 테스트는")
-class TilCharArrayTest {
+class CharArrayTest {
 
     @Test
     @DisplayName("charArray 를 선언한다.")

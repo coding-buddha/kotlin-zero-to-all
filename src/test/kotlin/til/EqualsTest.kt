@@ -1,14 +1,13 @@
 package til
 
 import io.kotest.matchers.shouldBe
+import model.Employee
+import model.Person
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 
-data class Person(val name: String)
-class Employee(val name: String)
-
 @DisplayName("비교 테스트")
-class TilEqualsTest {
+class EqualsTest {
 
     @Test
     @DisplayName("String 리터럴 비교 테스트")

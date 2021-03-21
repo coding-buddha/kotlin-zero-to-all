@@ -4,7 +4,7 @@ import io.kotest.matchers.shouldBe
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 
-class TilStringTest {
+class StringTest {
 
     @Test
     @DisplayName("스트링의 길이 수를 확인한다.")

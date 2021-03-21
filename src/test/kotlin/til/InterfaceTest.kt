@@ -1,35 +1,13 @@
 package til
 
 import io.kotest.matchers.shouldBe
+import model.BlackBox
+import model.WhiteBox
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 
-interface Box {
-    var name: String
-    val source: String
-
-    fun getMyName(): String
-}
-
-class BlackBox : Box {
-    override var name: String = ""
-    override val source: String = ""
-    override fun getMyName(): String {
-        return this.name
-    }
-}
-
-class WhiteBox(
-    override var name: String,
-    override val source: String
-) : Box {
-    override fun getMyName(): String {
-        return this.name
-    }
-}
-
 @DisplayName("인터페이스 테스트는")
-class TilInterfaceTest {
+class InterfaceTest {
 
     @Test
     @DisplayName("white-box 를 만든다.")

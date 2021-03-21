@@ -1,12 +1,11 @@
 package til
 
 import io.kotest.matchers.shouldBe
+import model.Human
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 
-data class Human(val name: String, val age: Int, val height: Double)
-
-class TilSumOfSumByTest {
+class SumOfSumByTest {
 
     @Test
     @DisplayName("sumOf 테스트")

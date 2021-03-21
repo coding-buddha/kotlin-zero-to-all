@@ -9,7 +9,7 @@ class MyNullableItems(var items: List<String>?)
 class MyBItems(var items: List<String>)
 
 @DisplayName("nullability & null-safety test 는")
-class TilNullableTest {
+class NullableTest {
 
     @Test
     @DisplayName("typed nullability 를 확인한다.")
