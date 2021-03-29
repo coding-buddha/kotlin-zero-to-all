@@ -1,4 +1,4 @@
-package model
+package model.boxes
 
 interface Box {
     var name: String

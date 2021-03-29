@@ -1,4 +1,4 @@
-package model
+package model.boxes
 
 class WhiteBox(
     override var name: String,

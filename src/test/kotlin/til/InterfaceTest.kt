@@ -1,8 +1,8 @@
 package til
 
 import io.kotest.matchers.shouldBe
-import model.BlackBox
-import model.WhiteBox
+import model.boxes.BlackBox
+import model.boxes.WhiteBox
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 

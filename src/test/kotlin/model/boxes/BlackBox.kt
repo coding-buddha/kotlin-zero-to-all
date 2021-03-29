@@ -1,4 +1,4 @@
-package model
+package model.boxes
 
 class BlackBox : Box {
     override var name: String = ""

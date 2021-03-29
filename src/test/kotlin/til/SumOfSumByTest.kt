@@ -21,8 +21,8 @@ class SumOfSumByTest {
 
         // when
         val totalAge = humans.sumOf { it.age }
-        val totalHeight = humans.sumOf { it.height }
-        val total = humans.sumOf { it.age + it.height }
+        val totalHeight = humans.sumOf { it.height!! }
+        val total = humans.sumOf { it.age + it.height!! }
 
         // then
         totalAge shouldBe 10 + 22 + 15 + 17
