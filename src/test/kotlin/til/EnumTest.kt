@@ -23,7 +23,7 @@ class EnumTest {
         (card1 == card2) shouldBe true
         (card1 === card2) shouldBe true
 
-        // card1 을 변경했는데, card2 에도 영향이 미친다.
+        /** card1 의 commission 을 변경했는데, card2 에도 영향이 미친다. **/
         card1.commission = BigDecimal.TEN
         card1.commission shouldBe BigDecimal.valueOf(10)
         card2.commission shouldBe BigDecimal.valueOf(10)
