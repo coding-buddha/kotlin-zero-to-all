@@ -15,4 +15,6 @@ fun main() {
         .also {
             writeCreationLog(it)
         }
+
+    println(jake.about)
 }

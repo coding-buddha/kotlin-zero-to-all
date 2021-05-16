@@ -1,6 +1,7 @@
 package til
 
 import io.kotest.matchers.shouldBe
+import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 
 class ListTest {
@@ -19,16 +20,16 @@ class ListTest {
     }
 
     @Test
-    fun listRemoveTest() {
+    @DisplayName("순서를 섞는다.")
+    fun listShuffledTest() {
 
         // given
-        val list = listOf(1, 2)
+        val list = mutableListOf(1, 2, 3, 4, 5, 6)
 
         // when
-        list.apply {
-
-        }
+        val shuffledList = list.shuffled()
 
         // then
+        shuffledList.size shouldBe 6
     }
 }

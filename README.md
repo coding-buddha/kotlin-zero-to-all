@@ -1,5 +1,8 @@
 # kotlin-zero-to-all
 
+## kotlin version
+> 1.5.0
+
 ## my log
 * 인텔리제이로 수행할 시에 자바와 동일하게 `build execution > execution > deployment` 탭에서 인텔리제이로 빌드 및 런을 수행할 수 있도록 한다.
 * IDE 표시되는 아이콘, .kt 파일과 class 파일의 차이점 아래와 같다.
@@ -11,6 +14,7 @@
 
 ## reference
 * https://kotlinlang.org/
+* https://kotlinlang.org/docs/releases.html : kotlin release
 * https://kotlinlang.org/docs/tutorials/jvm-get-started.html
 * https://play.kotlinlang.org/byExample/overview
-* https://developer.android.com/kotlin/style-guide?hl=ko] : 코틀린 스타일 가이드
+* https://developer.android.com/kotlin/style-guide?hl=ko : kotlin style guide
