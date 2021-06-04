@@ -20,7 +20,7 @@ fun main() {
     val network = Network.API_URL
     val timeout = Network.TIMEOUT
 
-    /** 아래는 좋은 방법인지 모르겠음.**/
+    /** 아래는 좋은 방법인지 모르겠음. 좋은 방법이 아닌거 같음. **/
     val position1 = Positions.create(10, 50)
     val position2 = Positions.create(10, 50)
 
