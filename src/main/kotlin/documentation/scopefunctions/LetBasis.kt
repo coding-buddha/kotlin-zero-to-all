@@ -1,7 +1,7 @@
 package documentation.scopefunctions
 
 fun customPrint(it: String) {
-    print("==> ${it.toUpperCase()}")
+    print("==> ${it.uppercase()}")
 }
 
 /**

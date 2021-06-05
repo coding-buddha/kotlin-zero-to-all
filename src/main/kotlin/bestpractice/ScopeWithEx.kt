@@ -1,0 +1,5 @@
+package bestpractice
+
+fun main() {
+    
+}
