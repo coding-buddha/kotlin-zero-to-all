@@ -1,4 +1,0 @@
-package til
-
-class SealedTest {
-}
