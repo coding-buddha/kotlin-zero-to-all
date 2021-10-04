@@ -10,6 +10,8 @@
     * __하나 이상의__ class 가 있는 경우에 해당 아이콘은 코틀린 형태로 나타난다. (확장자는 .kt 이고 Ide 에서는 그대로 노출된 상태)
     * https://stackoverflow.com/questions/42769873/kotlin-file-vs-class-whats-the-difference
 
+## Collection tip
+* [take, takeLast, drop, dropLast, partition](./src/test/kotlin/tip/CollectionsTip.kt)
     
 
 ## reference
